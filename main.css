@@ -1,47 +1,48 @@
 div {
-  border: 20px solid #000; 
+  border: 20px solid #000;
   /* this is short hand for setting
                             the border's width, its type, and color */
-  display: inline-block; 
+  display: inline-block;
   /* a way of positioning elements */
-  min-width: 20em; 
+  min-width: 20em;
   /* the two min styles make the shape */
-  min-height: 25em; 
+  min-height: 25em;
   /* of the divs oblong*/
-  border-radius: 50%; 
+  border-radius: 50%;
   /* this makes the normally square div round */
-  border-left-color: transparent; 
+  border-top-color: transparent;
+  border-left-color: transparent;
   /* these remove the color from the left side */
-  border-right-color: transparent; 
+  border-right-color: transparent;
   /* the right side */
-  border-bottom-color: transparent; 
+  border-bottom-color: transparent;
   /* and the bottom of the circle */
 }
 
-#red{
+#red {
   background-color: red;
 }
 
-#orange{
+#orange {
   background-color: orange;
 }
 
-#yellow{
+#yellow {
   background-color: yellow;
 }
 
-#green{
+#green {
   background-color: green;
-} 
+}
 
-#blue{
+#blue {
   background-color: blue;
 }
 
-#indigo{
+#indigo {
   background-color: indigo;
 }
 
-#violet{
-  background-color:violet;
+#violet {
+  background-color: violet;
 }
